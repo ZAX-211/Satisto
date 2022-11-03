@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/inverse_connection.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Обратная связь</title>
+</head>
+<body>
+    <div class="header">
+        <img src="img/logo.png" alt="logo" width="300px">
+        
+        <div class="titles">
+            <h1>Электронный журнал</h1>
+            <p>Рубцовский институт (филиал) АлтГУ</p>
+        </div>
+
+        <div class="titles_user">
+            <a href="#"><img src="img/Chelovechek.png" alt="Просто иконка, обозначающая юзера" width="50px" height="70px"></a>
+            <a href="#"><p id="username">Иванов <br> Иван Иванович</p></a>
+        </div>
+
+    </div>
+
+    <nav class="headerNav">
+        <div class="container">
+            <div class="header_section">
+                <ul class="header_menu">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">> Личный кабинет</a></li>
+                    <li><a href="#">> Обратная связь</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="obr_sviaz">
+        <img src="img/priamoygolnik.png" alt="Вкладка обратная связь" width="20px" height="60px">
+        <h2>Обратная связь</h2>
+    </div>
+
+    <div class="Question-and-forms">
+        <h3>Задать вопрос</h3>
+        <p id="text">Вы можете задать любой вопрос, мы постараемся дать на него информативный, исчерпывающий ответ. Но для этого<br>
+        постарайтесь четко сформулировать его, уточнить конкретные детали.</p>
+
+        <div class="forms">
+            <div class="yourName">
+                <label class="labels">Укажите ваше имя*</label>
+                <input type="text" class="inputs" required>
+            </div>
+            <div class="yourGroup">
+                <label class="labels">Укажите вашу группу*</label>
+                <input type="text" class="inputs" required>
+            </div>
+            <div class="yourText">
+                <label class="labels">Текст вашего сообщения*</label>
+                <input type="text" class="inputs" id="yourTextId" required>
+            </div>
+        </div>
+        <p id="downText">Символом * отмечены обязательные для заполнения поля</p>
+        <button class="form_button">Отправить</button>
+    </div>
+
+</body>
+</html>

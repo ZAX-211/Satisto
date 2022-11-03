@@ -1,0 +1,268 @@
+.header {
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+}
+
+img {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+p {
+    margin-top: 0;
+    color: gray;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.headerNav {
+    width: 100%;
+    height: 60px;
+    background-color: #006fb9e0;
+}
+
+.headerNav .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.header_menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+.header_menu li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main_page {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.titles_user {
+    display: flex;
+    padding-left: 750px;
+    padding-top: 30px;
+}
+
+#username {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #006fb9e0;
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+#username:hover {
+    color: #01406be0;
+}
+
+.lich_cabinet {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+h2 {
+    font-family: sans-serif;
+    padding-left: 10px;
+    color: #006fb9e0;
+}
+
+.header_tabs {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.headerNavTabs {
+    width: 95%;
+    margin-left: 45px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: #006fb9e0;
+}
+
+.headerNavTabs .containerTabs {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.header_menuTabs{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+table {
+    border-collapse:collapse;
+    margin-left: 210px;
+}
+
+h4 {
+    color: #006fb9e0;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+th {
+    background-color: #006fb9e0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 330px;
+    height: 50px;
+}
+
+td {
+    border: 1px solid black;
+    width: 330px;
+    height: 70px;
+    padding-left: 30px;
+    font-family: sans-serif;
+ }
+
+ .lower {
+    border-bottom: 1px solid black;
+ }
+
+ h3 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-left: 120px;
+ }
+
+ /* Кнопка выпадающего списка */
+.dropbtn {
+    width: 500px;
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 7px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+  }
+  
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 51px;
+    right: 0px;
+    width: 500px;
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  .dropdown-content a:hover {
+    background-color: #006fb9e0;
+    color: white;
+}
+  
+  /* Показать выпадающее меню при наведении курсора */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+  .dropdown:hover .dropbtn {
+    background-color: #006fb9e0;
+    color: white;
+}
+
+.form_button_one {
+    display: flex;
+    padding: 15px 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 810px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #0974bb;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    letter-spacing: normal;
+}
+
+.form_button_two {
+    display: flex;
+    padding: 15px 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 820px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #0974bb;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    letter-spacing: normal;
+}
+
+.form_button_one:hover {
+    background-color: rgba(0, 113, 240, 0.7);
+}
+
+.form_button_two:hover {
+    background-color: rgba(0, 113, 240, 0.7);
+}

@@ -1,19 +1,31 @@
-<meta name="viewport" content="width=450"/>
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-<title>WEB-интерфейс</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница авторизации</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1>Авторизация</h1>
-<form method="post" action="check_all.php">
-<input type="hidden" name="submitted" value="true"/>
-<fieldset style="width:230px">
-	<legend>Поле ввода</legend>
-<label> Логин: <input type="text" name="login" placeholder="Введите логин" style="width:220px"><br><br/>
-<label> Пароль: <input type="text" name="password" placeholder="Введите пароль" style="width:220px"><br><br/>
-</fieldset>
-<br />
-<input type="submit" value="Войти" style="width:260px"/>
-</form>
+    <form method="post" action="check_all.php">
+    	<input type="hidden" name="submitted" value="true"/>
+        <img src="img/logo.png" alt="Лого" width="600">
+
+        <div class="form_group">
+            <label> Логин: </label>
+            <input type="text" name="login" placeholder="Введите логин" class="form_input">
+        </div>
+
+        <div class="form_group">
+            <label> Пароль: </label>
+            <input type="text" name="password" placeholder="Введите пароль" class="form_input">
+        </div>
+
+        <button class="form_button">Войти</button>
+    </form>
 </body>
 </html>
